@@ -12,6 +12,6 @@ COPY test.sh /test
 COPY test.py test.py
 COPY app.py app.py
 
-RUN chmod +x test.sh
+RUN chmod +x /test
 
 CMD ["python", "app.py"]
